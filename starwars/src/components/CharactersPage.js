@@ -7,7 +7,7 @@ function CharactersPage(){
     const [data,setData] = useState([])
 
     useEffect(()=>{
-        axios.get('https://rickandmortyapi.com/api/character/1,2,3,4,5')
+        axios.get('https://rickandmortyapi.com/api/character/1,2,3,4,5,20,30,107,220,234')
         .then(res=>{
             console.log(res.data)
             setData(res.data)

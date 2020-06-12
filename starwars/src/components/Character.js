@@ -8,8 +8,8 @@ function Character(props){
         <Card>
             <CardImg top width="100%" src={props.character.image} alt="Card image cap" />
             <CardBody>
-                <CardTitle>{props.character.name}</CardTitle>
-                <CardText>{props.character.species}</CardText>
+                <CardTitle tag="h3">{props.character.name}</CardTitle>
+                <CardText tag="h4">{props.character.species}</CardText>
                 <CardText>
                     <small className="text-muted">{props.character.status}</small>
                 </CardText>
