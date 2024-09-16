@@ -6,3 +6,12 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.character{
+  width: 400px;
+  margin-bottom: 2%;
+}
+.charactersPage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
